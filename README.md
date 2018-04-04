@@ -23,4 +23,4 @@ the data with varying methods. As is, this program follows a linear approach of
 MyUser -> DayOfWeek -> Zodiac.
 
 Nothing special to look at, but like stated, the point of this simple project was to gain 
-experience designing software.
+experience properly designing software.
