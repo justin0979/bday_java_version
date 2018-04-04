@@ -3,7 +3,7 @@
 
 //package src;
 
-public class DayOWeek {
+public class DayOfWeek {
 
 	private static int h; // Day of the week index (0=Sat, 1 = Sun,...,6=Fri).
 	private static int q; // Day of the month.
@@ -14,11 +14,11 @@ public class DayOWeek {
 
 	// "For an ISO week date Day-of-Week d (1 = Monday to 7 = Sunday) use, d = ((h + 5) % 7) + 1" (wikipedia.org)
 	// and apply:  dayOWeek[d], which equals the currrently used dayOWeek[h].
-	private static String[] dayOWeek = { "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" };
+	private static String[] dayOfWeek = { "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" };
 
 	// *******************       Constructor(String month, String day, String year) {}     *************************
 
-	public DayOWeek(String month, String day, String year) {
+	public DayOfWeek(String month, String day, String year) {
 		m = Integer.parseInt(month);
 		q = Integer.parseInt(day);
 		k = Integer.parseInt(year) % 100;
@@ -69,7 +69,7 @@ public class DayOWeek {
 		if( year % 100 == 0 && year % 400 != 0 && (m == 2 && q == 29) ) {
 			System.out.println("February " + q + ", " + year + ", did not exist because " + year + " was not a leap year.");
 		} else {
-			System.out.println("You were born on a " + dayOWeek[h]);
+			System.out.println("You were born on a " + dayOfWeek[h]);
 		}
 	}
 }

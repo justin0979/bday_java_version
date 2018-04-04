@@ -5,7 +5,7 @@ public class main {
 		MyUser u = new MyUser();
 		u.Prompt();	
 
-		DayOWeek day = new DayOWeek(u.getMM(), u.getDD(), u.getYYYY());
+		DayOfWeek day = new DayOfWeek(u.getMM(), u.getDD(), u.getYYYY());
 		day.Calculate();
 		day.output();		
 
