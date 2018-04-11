@@ -1,5 +1,8 @@
 // DayOWeek class is responsible for calculating the day of the week for any 3 integer inputs.
 // Algorithm is taken from "https://en.wikipedia.org/wiki/Zeller's_congruence".
+// To keep the same variable names as the above algorithm, the mm, dd, yyyy are all substituted 
+// with the variable names used from the website. Comments are provided to describe where mm, dd, 
+// and yyyy are used.
 
 //package src;
 
