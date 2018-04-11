@@ -4,8 +4,6 @@
 // with the variable names used from the website. Comments are provided to describe where mm, dd, 
 // and yyyy are used.
 
-//package src;
-
 public class DayOfWeek {
 
 	private static int h; // Day of the week index (0=Sat, 1 = Sun,...,6=Fri).
