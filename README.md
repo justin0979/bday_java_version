@@ -6,7 +6,8 @@ To run from linux command line, either do:
 
 	./run.sh
 
-	(set permissions with: chmod 764 run.sh)
+	(should be done if cloned; but if not, set permissions with: chmod 764 run.sh.
+	this simple program compiles, executes and erases the compiled files.)
 
 or 
 
