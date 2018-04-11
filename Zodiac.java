@@ -2,8 +2,6 @@
 // Inputs can be any two integer numbers; however, only valid calendar month/day combinations
 // will ouput a Zodiac sign.
 
-//package src;
-
 public class Zodiac {
 
 	private static int m;	// m is month.
